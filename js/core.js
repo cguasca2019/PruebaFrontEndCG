@@ -19,5 +19,16 @@ function readData() {
         $('.carousel-inner > div').first().addClass('active');
         $('.carousel-indicators > li').first().addClass('active');       
         $('#carousel1').carousel();      
+        $.each(data.offerts, function(key,val){
+           var template = '<div class="card cardStyle">'+
+           '<img src="'+ val.url +'" class="card-img-top" width="100%" alt="'+ val.title +'">'+
+                '<div class="card-body cardBody">'+
+                    '<div class="cardTitle"><h4>'+ val.title +'</h4></div>'+
+                    '<p class="card-text">'+ val.content +'</p>'+
+                    '<button type="button" style="margin-top: 25px;" class="btn btn-primary btn btn-block">Conoce más</button>'+
+                '</div>'+
+            '</div>';
+            $(template).appendTo( ".grid-1" );
+        });
     });
 }
