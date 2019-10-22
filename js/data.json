@@ -1,0 +1,28 @@
+{
+    "slides": [
+        {"id": 1, "name": "Técnologia al alcance de la mano", "url": "assets/img/slide1.jpg"},
+        {"id": 2, "name": "Protegemos sus datos para una educación más segura", "url": "assets/img/slide2.jpg"},
+        {"id": 3, "name": "Una universidad para todos", "url": "assets/img/slide3.jpg"}
+    ],
+    "offerts":[
+        {
+            "id": 1,
+            "title": "NUESTROS PROGRAMAS",
+            "content": "Dirigidos a la comunidad en general y diseñados con el objetivo de formar, capacitar, actualizar y brindar conocimientos a los participantes en diferentes disciplinas.",
+            "url": "assets/img/oferta1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "PROGRAMAS PARA NIÑOS Y JOVENES",
+            "content": "Posibilitan una formación complementaria a la educación escolar, fomentando el desarrollo integral de los participantes a través de la exploración de sus intereses y habilidades.",
+            "url": "assets/img/oferta2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "PROGRAMAS PARA ORGANIZACIONES",
+            "content": "Responden a las necesidades de capacitaciñon, actualizaciñon y desarrollo de las organizaciones para sus colaboradores y socios estratégicos.",
+            "url": "assets/img/oferta3.jpg"
+        }
+
+    ]
+}
